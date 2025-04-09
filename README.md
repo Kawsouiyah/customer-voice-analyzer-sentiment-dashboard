@@ -1,4 +1,3 @@
-# customer-voice-analyzer-sentiment-dashboard
 # Sentiment Analysis Dashboard
 
 Analyse automatique des sentiments des retours clients avec VADER et Streamlit.
