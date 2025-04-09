@@ -52,7 +52,7 @@ if uploaded_file:
             fig = px.pie(sentiment_counts, names='Sentiment', values='Nombre', title='Répartition des sentiments')
             st.plotly_chart(fig, use_container_width=True)
 
-            st.subheader("🧪 Tester un nouveau message client")
+            st.subheader("Tester un nouveau message client")
             user_input = st.text_area("Entrez un message client ici")
             if user_input:
                 label = get_sentiment_vader(user_input)
