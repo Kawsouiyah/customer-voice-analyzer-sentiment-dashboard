@@ -14,12 +14,15 @@ Analyse automatique des sentiments des retours clients avec VADER et Streamlit.
 - VADER, Pandas
 - Plotly
 
+## Captures d'écran
+![results](https://github.com/user-attachments/assets/2e133b13-eac0-4907-a85a-4609a900f8ab)
+<div align="center"> <img src="./screenshots/dashboard.png" width="45%" alt="Interface principale"> <img src="./screenshots/resul1.png" width="45%" alt="Résultats d'analyse"> </div>
+
 ## Installation
 ```bash
 git clone 
 pip install -r requirements.txt
 streamlit run app.py
 
-## Captures d'écran
-![results](https://github.com/user-attachments/assets/2e133b13-eac0-4907-a85a-4609a900f8ab)
-<div align="center"> <img src="./screenshots/dashboard.png" width="45%" alt="Interface principale"> <img src="./screenshots/results.png" width="45%" alt="Résultats d'analyse"> </div>
+
+
