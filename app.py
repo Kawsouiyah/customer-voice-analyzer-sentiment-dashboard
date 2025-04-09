@@ -4,7 +4,7 @@ from textblob import TextBlob
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import plotly.express as px
 
-st.set_page_config(page_title="Analyse Sentimentale - DXC", layout="wide")
+st.set_page_config(page_title="Analyse Sentimentale", layout="wide")
 st.title("📊 Analyse des Retours Clients - Sentiment Dashboard")
 
 uploaded_file = st.file_uploader("📂 Importez un fichier CSV contenant les retours clients", type=["csv"])
