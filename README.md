@@ -15,9 +15,9 @@ Analyse automatique des sentiments des retours clients avec VADER et Streamlit.
 
 ## Captures d'écran
 <div align="center">
-  <img src="./screenshots/result1.png" width="30%" alt="Résultat 1">
-  <img src="./screenshots/result2.PNG" width="30%" alt="Résultat 2">
-  <img src="./screenshots/result3.PNG" width="30%" alt="Résultat 3">
+  <img src="./screenshots/result1.png" width="50%" alt="Résultat 1">
+  <img src="./screenshots/result2.PNG" width="50%" alt="Résultat 2">
+  <img src="./screenshots/result3.PNG" width="50%" alt="Résultat 3">
 </div>
 
 ## Installation
