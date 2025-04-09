@@ -20,9 +20,9 @@ def get_sentiment_vader(text):
     if sentiment_score['compound'] >= 0.05:
         return 'Positif'
     elif sentiment_score['compound'] <= -0.05:
-        return 'Négatif'
-    else:
         return 'Neutre'
+    else:
+        return 'Négatif'
 
 if uploaded_file:
     try:
