@@ -1,4 +1,3 @@
-# customer-voice-analyzer-sentiment-dashboard
 # Sentiment Analysis Dashboard
 
 Analyse automatique des sentiments des retours clients avec VADER et Streamlit.
@@ -16,13 +15,19 @@ Analyse automatique des sentiments des retours clients avec VADER et Streamlit.
 
 ## Captures d'écran
 ![results](https://github.com/user-attachments/assets/2e133b13-eac0-4907-a85a-4609a900f8ab)
-<div align="center"> <img src="./screenshots/dashboard.png" width="45%" alt="Interface principale"> <img src="./screenshots/resul1.png" width="45%" alt="Résultats d'analyse"> </div>
+<div align="center">
+  <img src="./screenshots/result1.png" width="30%" alt="Résultat 1">
+  <img src="./screenshots/result2.PNG" width="30%" alt="Résultat 2">
+  <img src="./screenshots/result3.PNG" width="30%" alt="Résultat 3">
+</div>
 
 ## Installation
 ```bash
 git clone 
 pip install -r requirements.txt
 streamlit run app.py
+ou
+python -m streamlit run app.py
 
 
 
